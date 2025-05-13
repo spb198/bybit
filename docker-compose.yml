@@ -1,0 +1,10 @@
+
+
+services:
+  strategy_runner:
+    build: .
+    container_name: strategy_runner
+    working_dir: /app
+    volumes:
+      - .:/app
+    restart: always

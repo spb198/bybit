@@ -1,0 +1,29 @@
+[
+  {
+    "name": "acc1",
+    "api_key": "NgRCLWErcigUxRsrwI",
+    "api_secret": "ziNyXuOWt8QCULzY4JqYQ1KEcFGXt7Mr5cbH",
+    "bots": {
+      "xrp_grid": {
+        "capital_percent": 1.15,
+        "grid_size": 15,
+        "grid_distance": 0.005,
+        "profit_target": 0.006,
+        "offset": 0.0002,
+        "tp_update_cooldown": 120,
+        "reorder_threshold": 0.002,
+        "size_multiplier": 1.05
+      },
+      "doge_grid": {
+        "capital_percent": 0.55,
+        "grid_size": 25,
+        "grid_distance": 0.001,
+        "profit_target": 0.004,
+        "offset": 0.0005,
+        "tp_update_cooldown": 90,
+        "reorder_threshold": 0.004,
+        "size_multiplier": 1.05
+      }
+    }
+  }
+]

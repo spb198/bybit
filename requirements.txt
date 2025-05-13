@@ -1,0 +1,7 @@
+pandas
+pybit
+psutil
+ta
+pyarrow
+psutil
+

@@ -1,0 +1,12 @@
+{
+  "bot_name": "xrp_grid",
+  "symbol": "XRPUSDT",
+  "category": "linear",
+  "position_mode": "hedge",
+  "rsi5_window": 14,
+  "rsi30_window": 30,
+  "cci_window": 20,
+  "rsi5_threshold": 44,
+  "rsi30_threshold": 55,
+  "cci_threshold": 100
+}
