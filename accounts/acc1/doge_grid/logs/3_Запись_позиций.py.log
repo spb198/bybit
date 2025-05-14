@@ -15336,3 +15336,187 @@ Trying to import the above resulted in these errors:
   order_count   = 1
   order_prices  = [0.2338]
   order_sizes   = [858.0]
+
+=== Р—Р°РїСѓСЃРє 3 Р—Р°РїРёСЃСЊ РїРѕР·РёС†РёР№.py РІ 2025-05-14 22:48:45 ===
+=== Запуск записи позиций для DOGEUSDT в 2025-05-14 19:48:49 ===
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 140, in main_loop
+    update_executions_table(now, session)
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 116, in update_executions_table
+    log_message(f"[{ts}] \u2705 Обновлено\n"
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 42, in log_message
+    print(message)
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 22: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 146, in <module>
+    main_loop()
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 142, in main_loop
+    log_message(f"\u274c Общая ошибка в цикле: {e}")
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 42, in log_message
+    print(message)
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+
+=== Р—Р°РїСѓСЃРє 3 Р—Р°РїРёСЃСЊ РїРѕР·РёС†РёР№.py РІ 2025-05-14 22:49:46 ===
+=== Запуск записи позиций для DOGEUSDT в 2025-05-14 19:49:47 ===
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 140, in main_loop
+    update_executions_table(now, session)
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 116, in update_executions_table
+    log_message(f"[{ts}] \u2705 Обновлено\n"
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 42, in log_message
+    print(message)
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2705' in position 22: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 146, in <module>
+    main_loop()
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 142, in main_loop
+    log_message(f"\u274c Общая ошибка в цикле: {e}")
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\3 Запись позиций.py", line 42, in log_message
+    print(message)
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\u274c' in position 0: character maps to <undefined>
+
+=== Р—Р°РїСѓСЃРє 3 Р—Р°РїРёСЃСЊ РїРѕР·РёС†РёР№.py РІ 2025-05-14 22:51:15 ===
+=== Р—Р°РїСѓСЃРє Р·Р°РїРёСЃРё РїРѕР·РёС†РёР№ РґР»СЏ DOGEUSDT РІ 2025-05-14 19:51:17 ===
+[2025-05-14 19:51:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23427
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 19:51:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23427
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+
+=== Р—Р°РїСѓСЃРє 3 Р—Р°РїРёСЃСЊ РїРѕР·РёС†РёР№.py РІ 2025-05-14 23:03:02 ===
+=== Р—Р°РїСѓСЃРє Р·Р°РїРёСЃРё РїРѕР·РёС†РёР№ РґР»СЏ DOGEUSDT РІ 2025-05-14 20:03:04 ===
+[2025-05-14 20:03:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23489
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:04:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23464
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:05:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23414
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:06:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23439
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:07:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23434
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:08:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23387
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:09:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23381
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:10:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23388
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:11:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2337
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:12:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23363
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:13:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23367
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-14 20:13:00] вњ… РћР±РЅРѕРІР»РµРЅРѕ
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23367
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []

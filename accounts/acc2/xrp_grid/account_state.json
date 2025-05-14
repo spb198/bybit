@@ -1,0 +1,9 @@
+{
+  "initial_balance": null,
+  "last_balance": null,
+  "user_balance": -1.0,
+  "profit": 0.0,
+  "commission_rate": 0.1,
+  "next_allowed_entry": false,
+  "last_updated": null
+}

@@ -4207,3 +4207,57 @@ Trying to import the above resulted in these errors:
 2025-05-14 16:32:05.060162 ⏳ ts = 2025-05-14 16:25:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
 2025-05-14 16:33:05.059692 🕒 ts = 2025-05-14 16:30:00+00:00 | signal = 1 | open = True | size = 858.0 | orders = 1 | price = 0.23215 | last_size = 858.0
 2025-05-14 16:33:05.060335 🟡 Ничего не изменилось — ждём следующую минуту...
+
+=== Запуск 4 Торговля.py в 2025-05-14 22:48:45 ===
+=== ������ �������� � 2025-05-14 19:48:49 ===
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\4 ��������.py", line 318, in <module>
+    main()
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\4 ��������.py", line 199, in main
+    print(f"\U0001f4c1 SYMBOL = {SYMBOL} | EXECUTIONS_PATH = {EXECUTIONS_PATH} | FEATURES_PATH = {FEATURES_PATH}")
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c1' in position 0: character maps to <undefined>
+
+=== Запуск 4 Торговля.py в 2025-05-14 22:49:46 ===
+=== ������ �������� � 2025-05-14 19:49:47 ===
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\4 ��������.py", line 318, in <module>
+    main()
+  File "C:\Users\slava\PycharmProjects\Container\bots\doge_grid\4 ��������.py", line 199, in main
+    print(f"\U0001f4c1 SYMBOL = {SYMBOL} | EXECUTIONS_PATH = {EXECUTIONS_PATH} | FEATURES_PATH = {FEATURES_PATH}")
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c1' in position 0: character maps to <undefined>
+
+=== Запуск 4 Торговля.py в 2025-05-14 22:51:15 ===
+=== Запуск торговли в 2025-05-14 19:51:17 ===
+📁 SYMBOL = DOGEUSDT | EXECUTIONS_PATH = accounts\acc1\doge_grid\data\executions.parquet | FEATURES_PATH = strategy_data\doge_grid\features.parquet
+2025-05-14 19:51:17.660151 🚀 Бот запущен. Цикл каждую минуту.
+2025-05-14 19:51:17.770647 🕒 ts = 2025-05-14 16:30:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23424 | last_size = 0
+2025-05-14 19:51:17.770647 🟡 Ничего не изменилось — ждём следующую минуту...
+
+=== Запуск 4 Торговля.py в 2025-05-14 23:03:02 ===
+=== Запуск торговли в 2025-05-14 20:03:05 ===
+📁 SYMBOL = DOGEUSDT | EXECUTIONS_PATH = accounts\acc1\doge_grid\data\executions.parquet | FEATURES_PATH = strategy_data\doge_grid\features.parquet
+2025-05-14 20:03:05.038041 🚀 Бот запущен. Цикл каждую минуту.
+2025-05-14 20:03:05.149338 🕒 ts = 2025-05-14 19:50:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23427 | last_size = 0
+2025-05-14 20:03:05.149338 🟡 Ничего не изменилось — ждём следующую минуту...
+2025-05-14 20:04:05.036711 🕒 ts = 2025-05-14 19:50:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23464 | last_size = 0.0
+2025-05-14 20:04:05.036711 ⏳ ts = 2025-05-14 19:50:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:05:05.079652 🕒 ts = 2025-05-14 20:00:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23414 | last_size = 0.0
+2025-05-14 20:05:05.079652 🟡 Ничего не изменилось — ждём следующую минуту...
+2025-05-14 20:06:05.068138 🕒 ts = 2025-05-14 20:00:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23439 | last_size = 0.0
+2025-05-14 20:06:05.068138 ⏳ ts = 2025-05-14 20:00:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:07:05.067331 🕒 ts = 2025-05-14 20:00:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23434 | last_size = 0.0
+2025-05-14 20:07:05.067331 ⏳ ts = 2025-05-14 20:00:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:08:05.043522 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23387 | last_size = 0.0
+2025-05-14 20:08:05.043522 🟡 Ничего не изменилось — ждём следующую минуту...
+2025-05-14 20:09:05.045817 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23381 | last_size = 0.0
+2025-05-14 20:09:05.045817 ⏳ ts = 2025-05-14 20:05:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:10:05.051479 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23388 | last_size = 0.0
+2025-05-14 20:10:05.051479 ⏳ ts = 2025-05-14 20:05:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:11:05.048982 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.2337 | last_size = 0.0
+2025-05-14 20:11:05.048982 ⏳ ts = 2025-05-14 20:05:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:12:05.047377 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 0.23363 | last_size = 0.0
+2025-05-14 20:12:05.047377 ⏳ ts = 2025-05-14 20:05:00+00:00 уже обработан, изменений нет — ждём следующую минуту...

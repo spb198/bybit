@@ -1,0 +1,50 @@
+
+=== Запуск 4 Торговля.py в 2025-05-14 22:48:45 ===
+=== ������ �������� � 2025-05-14 19:48:49 ===
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\xrp_grid\4 ��������.py", line 318, in <module>
+    main()
+  File "C:\Users\slava\PycharmProjects\Container\bots\xrp_grid\4 ��������.py", line 199, in main
+    print(f"\U0001f4c1 SYMBOL = {SYMBOL} | EXECUTIONS_PATH = {EXECUTIONS_PATH} | FEATURES_PATH = {FEATURES_PATH}")
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c1' in position 0: character maps to <undefined>
+
+=== Запуск 4 Торговля.py в 2025-05-14 22:49:46 ===
+=== ������ �������� � 2025-05-14 19:49:47 ===
+Traceback (most recent call last):
+  File "C:\Users\slava\PycharmProjects\Container\bots\xrp_grid\4 ��������.py", line 318, in <module>
+    main()
+  File "C:\Users\slava\PycharmProjects\Container\bots\xrp_grid\4 ��������.py", line 199, in main
+    print(f"\U0001f4c1 SYMBOL = {SYMBOL} | EXECUTIONS_PATH = {EXECUTIONS_PATH} | FEATURES_PATH = {FEATURES_PATH}")
+  File "C:\Program Files\Python39\lib\encodings\cp1251.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c1' in position 0: character maps to <undefined>
+
+=== Запуск 4 Торговля.py в 2025-05-14 22:51:15 ===
+=== Запуск торговли в 2025-05-14 19:51:17 ===
+📁 SYMBOL = XRPUSDT | EXECUTIONS_PATH = accounts\acc2\xrp_grid\data\executions.parquet | FEATURES_PATH = strategy_data\xrp_grid\features.parquet
+2025-05-14 19:51:17.644824 🚀 Бот запущен. Цикл каждую минуту.
+2025-05-14 19:51:17.766631 🕒 ts = 2025-05-14 16:30:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5569 | last_size = 0
+2025-05-14 19:51:17.766631 🟡 Ничего не изменилось — ждём следующую минуту...
+
+=== Запуск 4 Торговля.py в 2025-05-14 23:03:02 ===
+=== Запуск торговли в 2025-05-14 20:03:05 ===
+📁 SYMBOL = XRPUSDT | EXECUTIONS_PATH = accounts\acc2\xrp_grid\data\executions.parquet | FEATURES_PATH = strategy_data\xrp_grid\features.parquet
+2025-05-14 20:03:05.044293 🚀 Бот запущен. Цикл каждую минуту.
+2025-05-14 20:03:05.165048 🕒 ts = 2025-05-14 19:50:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5572 | last_size = 0
+2025-05-14 20:03:05.165048 🟡 Ничего не изменилось — ждём следующую минуту...
+2025-05-14 20:04:05.032037 🕒 ts = 2025-05-14 19:50:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5625 | last_size = 0.0
+2025-05-14 20:04:05.032037 ⏳ ts = 2025-05-14 19:50:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:05:05.095753 🕒 ts = 2025-05-14 20:00:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5596 | last_size = 0.0
+2025-05-14 20:05:05.095753 🟡 Ничего не изменилось — ждём следующую минуту...
+2025-05-14 20:06:05.100703 🕒 ts = 2025-05-14 20:00:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.564 | last_size = 0.0
+2025-05-14 20:06:05.100703 ⏳ ts = 2025-05-14 20:00:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:07:05.108744 🕒 ts = 2025-05-14 20:00:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5646 | last_size = 0.0
+2025-05-14 20:07:05.108744 ⏳ ts = 2025-05-14 20:00:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:08:05.049549 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5602 | last_size = 0.0
+2025-05-14 20:08:05.052155 🟡 Ничего не изменилось — ждём следующую минуту...
+2025-05-14 20:09:05.045817 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5601 | last_size = 0.0
+2025-05-14 20:09:05.045817 ⏳ ts = 2025-05-14 20:05:00+00:00 уже обработан, изменений нет — ждём следующую минуту...
+2025-05-14 20:10:05.057453 🕒 ts = 2025-05-14 20:05:00+00:00 | signal = 0 | open = False | size = 0.0 | orders = 0 | price = 2.5614 | last_size = 0.0
+2025-05-14 20:10:05.057453 ⏳ ts = 2025-05-14 20:05:00+00:00 уже обработан, изменений нет — ждём следующую минуту...

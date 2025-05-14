@@ -49,13 +49,19 @@ def get_position(session):
     try:
         result = session.get_positions(category=CATEGORY, symbol=SYMBOL)
         positions = result.get("result", {}).get("list", [])
+        pos_data = {"size": 0.0, "avg_price": 0.0, "side": "", "mark_price": 0.0}
         for pos in positions:
-            return {
-                "size": safe_float(pos.get("size")),
-                "avg_price": safe_float(pos.get("avgPrice")),
-                "side": pos.get("side", ""),
-                "mark_price": safe_float(pos.get("markPrice"))
-            }
+            pos_data["size"] = safe_float(pos.get("size"))
+            pos_data["avg_price"] = safe_float(pos.get("avgPrice"))
+            pos_data["side"] = pos.get("side", "")
+            break  # берём только первую позицию
+
+        # берём mark_price напрямую из get_tickers
+        ticker = session.get_tickers(category=CATEGORY, symbol=SYMBOL)
+        pos_data["mark_price"] = safe_float(ticker["result"]["list"][0]["markPrice"])
+
+        return pos_data
+
     except Exception as e:
         log_message(f"❌ Ошибка при получении позиции: {e}")
         return {"size": 0.0, "avg_price": 0.0, "side": "", "mark_price": 0.0}

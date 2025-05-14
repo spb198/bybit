@@ -15628,3 +15628,156 @@
 [2025-05-14 16:32:45] PID 13 | 172.15 MB | /usr/local/bin/python bots/xrp_grid/4 Торговля.py --symbol XRPUSDT
 [2025-05-14 16:32:45] PID 14 | 164.39 MB | /usr/local/bin/python bots/doge_grid/3 Запись позиций.py --symbol XRPUSDT
 [2025-05-14 16:32:45] PID 15 | 156.05 MB | /usr/local/bin/python bots/doge_grid/4 Торговля.py --symbol XRPUSDT
+[2025-05-14 22:48:50] 📊 Всего Python-памяти: 318.82 MB
+[2025-05-14 22:48:50] PID 5320 | 57.91 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 22:48:50] PID 6604 | 66.13 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 22:48:50] PID 7228 | 78.18 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 22:48:50] PID 13712 | 16.02 MB | C:\Program Files\Python39\python.exe C:\Users\slava\PycharmProjects\Container\run_strategies.py
+[2025-05-14 22:48:50] PID 21028 | 84.61 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 22:48:50] PID 21352 | 15.98 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 22:49:52] 📊 Всего Python-памяти: 32.32 MB
+[2025-05-14 22:49:52] PID 13712 | 16.01 MB | C:\Program Files\Python39\python.exe C:\Users\slava\PycharmProjects\Container\run_strategies.py
+[2025-05-14 22:49:52] PID 21352 | 16.31 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 22:51:18] 📊 Всего Python-памяти: 970.56 MB
+[2025-05-14 22:51:18] PID 3220 | 58.21 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 22:51:18] PID 5000 | 15.39 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 22:51:18] PID 9352 | 98.26 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 22:51:18] PID 16324 | 104.07 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 22:51:19] PID 18444 | 88.13 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 22:51:19] PID 18900 | 96.02 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 22:51:19] PID 19984 | 97.13 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 22:51:19] PID 19992 | 97.83 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 22:51:19] PID 20608 | 97.84 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 22:51:19] PID 21032 | 104.06 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 22:51:19] PID 21336 | 15.95 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 22:51:19] PID 21464 | 97.67 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:03:06] 📊 Всего Python-памяти: 956.76 MB
+[2025-05-14 23:03:06] PID 6028 | 80.13 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:03:06] PID 6800 | 16.03 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:03:06] PID 7964 | 82.89 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:03:06] PID 8320 | 88.47 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:03:06] PID 10664 | 86.52 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:03:06] PID 14828 | 84.20 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:03:06] PID 14944 | 97.79 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:03:06] PID 15064 | 97.57 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:03:06] PID 19216 | 104.09 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:03:06] PID 20844 | 16.05 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:03:06] PID 21456 | 98.09 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:03:06] PID 24720 | 104.92 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:04:08] 📊 Всего Python-памяти: 1014.95 MB
+[2025-05-14 23:04:08] PID 6028 | 98.12 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:04:08] PID 6800 | 16.79 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:04:08] PID 7964 | 99.00 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:04:08] PID 8320 | 91.23 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:04:08] PID 10664 | 88.61 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:04:08] PID 14828 | 96.21 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:04:08] PID 14944 | 98.93 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:04:08] PID 15064 | 98.46 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:04:08] PID 19216 | 106.32 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:04:08] PID 20844 | 16.04 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:04:08] PID 21456 | 99.23 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:04:08] PID 24720 | 106.02 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:05:10] 📊 Всего Python-памяти: 1023.40 MB
+[2025-05-14 23:05:10] PID 6028 | 98.67 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:05:10] PID 6800 | 16.88 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:05:10] PID 7964 | 99.63 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:05:10] PID 8320 | 92.20 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:05:10] PID 10664 | 89.87 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:05:10] PID 14828 | 96.27 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:05:10] PID 14944 | 99.86 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:05:10] PID 15064 | 98.95 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:05:10] PID 19216 | 107.68 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:05:10] PID 20844 | 16.04 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:05:10] PID 21456 | 100.07 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:05:10] PID 24720 | 107.30 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:06:13] 📊 Всего Python-памяти: 1027.77 MB
+[2025-05-14 23:06:13] PID 6028 | 99.05 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:06:13] PID 6800 | 16.80 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:06:13] PID 7964 | 99.85 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:06:13] PID 8320 | 93.01 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:06:13] PID 10664 | 90.43 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:06:13] PID 14828 | 96.32 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:06:13] PID 14944 | 100.32 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:06:13] PID 15064 | 99.36 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:06:13] PID 19216 | 108.05 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:06:13] PID 20844 | 16.01 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:06:13] PID 21456 | 100.73 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:06:13] PID 24720 | 107.83 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:07:15] 📊 Всего Python-памяти: 1032.26 MB
+[2025-05-14 23:07:15] PID 6028 | 99.47 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:07:15] PID 6800 | 16.88 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:07:15] PID 7964 | 100.05 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:07:15] PID 8320 | 93.46 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:07:15] PID 10664 | 90.82 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:07:15] PID 14828 | 96.38 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:07:15] PID 14944 | 100.81 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:07:15] PID 15064 | 99.67 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:07:15] PID 19216 | 108.66 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:07:15] PID 20844 | 16.01 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:07:15] PID 21456 | 101.58 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:07:15] PID 24720 | 108.47 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:08:17] 📊 Всего Python-памяти: 1033.93 MB
+[2025-05-14 23:08:17] PID 6028 | 99.74 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:08:17] PID 6800 | 17.04 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:08:17] PID 7964 | 100.27 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:08:17] PID 8320 | 92.59 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:08:17] PID 10664 | 91.05 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:08:17] PID 14828 | 96.50 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:08:17] PID 14944 | 101.22 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:08:17] PID 15064 | 100.09 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:08:17] PID 19216 | 108.50 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:08:17] PID 20844 | 16.06 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:08:17] PID 21456 | 102.06 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:08:17] PID 24720 | 108.80 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:09:19] 📊 Всего Python-памяти: 1036.99 MB
+[2025-05-14 23:09:19] PID 6028 | 100.05 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:09:19] PID 6800 | 17.60 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:09:19] PID 7964 | 100.67 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:09:19] PID 8320 | 92.98 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:09:19] PID 10664 | 91.38 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:09:19] PID 14828 | 96.60 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:09:19] PID 14944 | 101.26 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:09:19] PID 15064 | 100.49 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:09:19] PID 19216 | 108.36 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:09:19] PID 20844 | 16.06 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:09:19] PID 21456 | 102.46 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:09:19] PID 24720 | 109.07 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:10:22] 📊 Всего Python-памяти: 1040.24 MB
+[2025-05-14 23:10:22] PID 6028 | 100.22 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:10:22] PID 6800 | 17.95 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:10:22] PID 7964 | 101.10 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:10:22] PID 8320 | 93.24 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:10:22] PID 10664 | 91.68 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:10:22] PID 14828 | 96.62 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:10:22] PID 14944 | 101.54 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:10:22] PID 15064 | 100.57 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:10:22] PID 19216 | 109.51 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:10:22] PID 20844 | 16.02 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:10:22] PID 21456 | 102.46 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:10:22] PID 24720 | 109.34 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:11:23] 📊 Всего Python-памяти: 1043.43 MB
+[2025-05-14 23:11:23] PID 6028 | 100.52 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:11:23] PID 6800 | 17.73 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:11:23] PID 7964 | 101.34 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:11:23] PID 8320 | 94.53 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:11:23] PID 10664 | 91.72 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:11:23] PID 14828 | 96.66 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:11:23] PID 14944 | 101.88 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:11:23] PID 15064 | 100.70 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:11:23] PID 19216 | 110.05 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:11:23] PID 20844 | 16.02 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:11:23] PID 21456 | 102.91 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:11:23] PID 24720 | 109.37 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
+[2025-05-14 23:12:26] 📊 Всего Python-памяти: 1044.96 MB
+[2025-05-14 23:12:26] PID 6028 | 100.72 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:12:26] PID 6800 | 17.75 MB | C:\Program Files\Python39\python.exe memory_watcher.py
+[2025-05-14 23:12:26] PID 7964 | 101.46 MB | C:\Program Files\Python39\python.exe bots\doge_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:12:26] PID 8320 | 94.93 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:12:26] PID 10664 | 91.88 MB | C:\Program Files\Python39\python.exe bots\doge_grid\2 Подготовка данных к тесту.py
+[2025-05-14 23:12:26] PID 14828 | 96.67 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:12:26] PID 14944 | 102.08 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\3 Запись позиций.py --symbol XRPUSDT
+[2025-05-14 23:12:26] PID 15064 | 100.69 MB | C:\Program Files\Python39\python.exe bots\doge_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:12:26] PID 19216 | 110.04 MB | C:\Program Files\Python39\python.exe bots\doge_grid\1 Формирование базы.py
+[2025-05-14 23:12:26] PID 20844 | 16.02 MB | C:\Program Files\Python39\python.exe C:/Users/slava/PycharmProjects/Container/run_strategies.py
+[2025-05-14 23:12:26] PID 21456 | 103.27 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\4 Торговля.py --symbol XRPUSDT
+[2025-05-14 23:12:26] PID 24720 | 109.43 MB | C:\Program Files\Python39\python.exe bots\xrp_grid\1 Формирование базы.py
