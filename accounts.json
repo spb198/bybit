@@ -25,5 +25,22 @@
         "size_multiplier": 1.05
       }
     }
+  },
+  {
+    "name": "acc2",
+    "api_key": "xe2cetfdRhyqEngnZr",
+    "api_secret": "bSor4apDBO7U8lEyYDvLePbIGHHdSyTonMzE",
+    "bots": {
+      "xrp_grid": {
+        "capital_percent": 1.0,
+        "grid_size": 20,
+        "grid_distance": 0.004,
+        "profit_target": 0.005,
+        "offset": 0.0003,
+        "tp_update_cooldown": 100,
+        "reorder_threshold": 0.003,
+        "size_multiplier": 1.03
+      }
+    }
   }
 ]
