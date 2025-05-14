@@ -135,40 +135,52 @@ def place_grid_orders(session, mark_price, qty_precision):
     n = GRID_SIZE
     size = capital_usd * (r - 1) / (r ** n - 1)
     print(f"{datetime.utcnow()} 📊 Баланс: {raw_balance:.2f}, используем: {capital_usd:.2f}, BASE_SIZE_USD: {size:.4f}")
+
+    position_mode = config.get("position_mode", "oneway").lower()
+
     for i in range(GRID_SIZE):
         price = round(mark_price * (1 - OFFSET - i * GRID_DISTANCE), 4)
         qty = round(size / price, qty_precision)
-        position_mode = config.get("position_mode", "oneway")
-        position_idx = get_position_idx(position_mode, side="Buy")
-        session.place_order(
+
+        order_kwargs = dict(
             category=CATEGORY,
             symbol=SYMBOL,
             side="Buy",
             orderType="Limit",
             qty=qty,
             price=price,
-            timeInForce="GTC",
-            positionIdx=position_idx
+            timeInForce="GTC"
         )
+
+        if position_mode == "hedge":
+            order_kwargs["positionIdx"] = 1
+
+        session.place_order(**order_kwargs)
         print(f"{datetime.utcnow()} ⛓ Ордер {i+1}: {qty} @ {price}")
         size *= SIZE_MULTIPLIER
+
 
 def update_take_profit(session, avg_price, size, qty_precision):
     tp_price = round(avg_price * (1 + PROFIT_TARGET), 4)
     qty = round(size, qty_precision)
-    position_mode = config.get("position_mode", "oneway")
-    position_idx = get_position_idx(position_mode, side="Buy")
-    session.place_order(
+    position_mode = config.get("position_mode", "oneway").lower()
+
+    order_kwargs = dict(
         category=CATEGORY,
         symbol=SYMBOL,
         side="Sell",
         orderType="Limit",
         qty=qty,
         price=tp_price,
-        timeInForce="GTC",
-        positionIdx=position_idx
+        timeInForce="GTC"
     )
+
+    if position_mode == "hedge":
+        order_kwargs["positionIdx"] = 2  # Short в хедж-режиме
+
+    session.place_order(**order_kwargs)
     print(f"{datetime.utcnow()} 🎯 Обновлён TP: {qty} @ {tp_price}")
+
 
 def wait_until_next_minute():
     now = datetime.utcnow()
