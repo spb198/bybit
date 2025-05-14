@@ -12,7 +12,7 @@ from datetime import timezone
 
 
 def load_config():
-    BOT_NAME = "xrp_grid"  # жёстко заданное имя стратегии
+    BOT_NAME =  "xrp_grid"   # жёстко заданное имя стратегии
     CONFIG_PATH = os.path.join("configs", f"{BOT_NAME}.json")
     with open(CONFIG_PATH) as f:
         return json.load(f)
@@ -40,14 +40,14 @@ FILE_1H = os.path.join(DATA_PATH, f"{symbol_lower}_1h.parquet")
 INTERVAL = "1"
 LIMIT = 1000 if not os.path.exists(FILE_1MIN) or os.path.getsize(FILE_1MIN) < 100000 else 1
 
-def fetch_new_candles(start_time=None):
+def fetch_new_candles(start_time=None, limit=1000):
     session = HTTP(testnet=False)
     try:
         params = {
             "category": CATEGORY,
             "symbol": SYMBOL,
             "interval": INTERVAL,
-            "limit": LIMIT,
+            "limit": limit,
         }
         if start_time:
             params["start"] = int(start_time.timestamp() * 1000)
@@ -124,7 +124,9 @@ def update_parquet():
 
     while last_time < now - timedelta(minutes=1):
         fetch_from = last_time + timedelta(minutes=1)
-        new_data = fetch_new_candles(fetch_from)
+        # Определим лимит: если данные старые — берём пачку, если почти в реальном времени — берём по одной
+        limit = 1000 if (now - fetch_from).total_seconds() > 180 else 1
+        new_data = fetch_new_candles(fetch_from, limit=limit)
 
         if new_data.empty:
             print("❌ Нет новых данных от API — остановка загрузки.")
