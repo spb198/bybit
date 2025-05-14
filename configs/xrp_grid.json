@@ -2,7 +2,7 @@
   "bot_name": "xrp_grid",
   "symbol": "XRPUSDT",
   "category": "linear",
-  "position_mode": "hedge",
+  "position_mode": "oneway",
   "rsi5_window": 14,
   "rsi30_window": 30,
   "cci_window": 20,

@@ -3,7 +3,7 @@ import time
 import os
 
 PROCESS_LIMIT_MB = 250       # Порог для одного процесса (опционально)
-TOTAL_LIMIT_MB = 2000        # Общий лимит для всех Python-процессов
+TOTAL_LIMIT_MB = 5000        # Общий лимит для всех Python-процессов
 LOG_FILE = "logs/memory_watch.log"
 os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
 

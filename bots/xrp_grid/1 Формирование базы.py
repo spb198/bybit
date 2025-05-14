@@ -3,8 +3,13 @@ import time
 import json
 import argparse
 import pandas as pd
+from datetime import datetime, timedelta
 from datetime import datetime
 from pybit.unified_trading import HTTP
+from datetime import timezone
+
+
+
 
 def load_config():
     BOT_NAME = "xrp_grid"  # жёстко заданное имя стратегии
@@ -33,7 +38,7 @@ FILE_30MIN = os.path.join(DATA_PATH, f"{symbol_lower}_30min.parquet")
 FILE_1H = os.path.join(DATA_PATH, f"{symbol_lower}_1h.parquet")
 
 INTERVAL = "1"
-LIMIT = 1000 if not os.path.exists(FILE_1MIN) or os.path.getsize(FILE_1MIN) < 10000 else 1
+LIMIT = 1000 if not os.path.exists(FILE_1MIN) or os.path.getsize(FILE_1MIN) < 100000 else 1
 
 def fetch_new_candles(start_time=None):
     session = HTTP(testnet=False)
@@ -107,54 +112,43 @@ def update_parquet():
     print(f"\n🕒 [{datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')}] 🔄 Обновление данных для {SYMBOL}...")
 
     existing = safe_load_parquet(FILE_1MIN) if os.path.exists(FILE_1MIN) else pd.DataFrame()
+    combined = existing.copy()
+    now = datetime.utcnow().replace(tzinfo=timezone.utc, second=0, microsecond=0)
 
-    if existing.empty or len(existing) < 10000:
-        print(f"⚠️ Недостаточно данных ({len(existing)} строк) — загружаем ~10 000 свечей...")
-        combined = pd.DataFrame()
-        session = HTTP(testnet=False)
-        now = datetime.utcnow()
-        start = now - pd.Timedelta(minutes=10500)
-        start_ts = int(start.timestamp() * 1000)
-        while len(combined) < 10000:
-            df = fetch_new_candles(datetime.utcfromtimestamp(start_ts / 1000))
-            if df.empty:
-                print("❌ Прекращаем — API не вернул данных.")
-                break
-            df = df[~df.index.duplicated(keep='last')]
-            df = df[~df.index.isin(combined.index)]
-            combined = pd.concat([combined, df])
-            combined.sort_index(inplace=True)
-            if not df.empty:
-                last_ts = df.index[-1]
-                start_ts = int(last_ts.timestamp() * 1000) + 60_000
-            time.sleep(0.2)
-        safe_save_parquet(combined, FILE_1MIN)
-        print(f"✅ Загружено {len(combined)} строк.")
+    if existing.empty:
+        print("⚠️ База пуста — начинаем загрузку с нуля")
+        last_time = now - timedelta(minutes=10000)
     else:
         last_time = existing.index.max()
-        fetch_from = last_time + pd.Timedelta(minutes=1)
         print(f"📌 Последний timestamp в базе: {last_time}")
+
+    while last_time < now - timedelta(minutes=1):
+        fetch_from = last_time + timedelta(minutes=1)
         new_data = fetch_new_candles(fetch_from)
+
         if new_data.empty:
-            print("⚠️ Нет новых данных.")
-            return
+            print("❌ Нет новых данных от API — остановка загрузки.")
+            break
+
         new_data.index = pd.to_datetime(new_data.index, utc=True)
         new_data = new_data[~new_data.index.duplicated(keep='last')]
-        new_data.sort_index(inplace=True)
-        existing_index = existing.index if not existing.empty else pd.DatetimeIndex([])
-        new_data = new_data[~new_data.index.isin(existing_index)]
-        if new_data.empty:
-            print("⚠️ Нет новых уникальных свечей.")
-            return
-        combined = pd.concat([existing, new_data])
-        combined = combined.sort_index()
-        safe_save_parquet(combined, FILE_1MIN)
-        print(f"✅ Добавлено {len(new_data)} свечей. Всего: {len(combined)}")
+        combined = pd.concat([combined, new_data])
+        combined = combined[~combined.index.duplicated(keep='last')]
+        combined.sort_index(inplace=True)
 
-    print(f"📈 Последняя свеча:\n{combined.tail(1)}")
+        last_time = combined.index.max()
+        print(f"📈 Добавлено: {len(new_data)} свечей | Новый последний ts: {last_time}")
+
+        time.sleep(0.25)
+
+    safe_save_parquet(combined, FILE_1MIN)
+    print(f"✅ Всего свечей после обновления: {len(combined)}")
     aggregate_and_save(combined, '5min', FILE_5MIN)
     aggregate_and_save(combined, '30min', FILE_30MIN)
     aggregate_and_save(combined, '1h', FILE_1H)
+
+    print(f"📈 Последняя свеча:\n{combined.tail(1)}")
+
 
 def sync_to_next_minute(start_time):
     elapsed = time.time() - start_time

@@ -19,13 +19,10 @@ def load_config():
         return json.load(f)
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--symbol", type=str, help="Тикер, например BTCUSDT")
-args = parser.parse_args()
+config = load_config()  # сначала загружаем конфиг
 
-config = load_config()
-SYMBOL = args.symbol.upper() if args.symbol else config.get("symbol", "BTCUSDT").upper()
-CATEGORY = config.get("category", "linear")
+SYMBOL = config["symbol"].upper()
+CATEGORY = config["category"]
 symbol_lower = SYMBOL.lower()
 
 # === Пути ===

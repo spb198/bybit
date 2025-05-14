@@ -13892,3 +13892,879 @@ Trying to import the above resulted in these errors:
   order_count   = 0
   order_prices  = []
   order_sizes   = []
+[2025-05-13 19:07:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23804
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:08:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23817
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:09:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23793
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:10:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2385
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:11:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23864
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:12:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23868
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:13:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2388
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:14:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23903
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:15:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23924
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:16:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23933
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:17:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23897
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:18:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23885
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:20:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23951
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:20:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2397
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:21:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23963
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:22:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23961
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:23:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23961
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:24:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23986
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:25:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24033
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:26:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:27:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24074
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:28:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24088
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:29:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24056
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:30:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24121
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:31:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2408
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:32:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24015
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:33:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24045
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:34:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24017
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:35:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24007
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:36:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24036
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:37:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2408
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:38:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24097
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:39:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24045
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:40:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2405
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:41:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2409
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:42:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24134
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:43:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24121
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:44:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2416
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:45:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24193
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:46:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24201
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:47:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24293
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:48:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24198
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:49:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24162
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:50:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.24157
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:51:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23965
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:52:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23886
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:53:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23925
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:54:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23852
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:55:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23886
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:56:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2388
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:57:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2384
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:58:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23877
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 19:59:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23894
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:00:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23887
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:01:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2384
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:02:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23834
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:03:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2378
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:04:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2384
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:05:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2374
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:06:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23747
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:07:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23752
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:08:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23737
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:09:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23758
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:10:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23769
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:11:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23814
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:12:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23827
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:13:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23779
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:14:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23785
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:15:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23829
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:16:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2376
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:17:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23777
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:18:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23746
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:19:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.2378
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:20:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23746
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:21:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.238
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:22:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23794
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:23:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23809
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:24:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23839
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:25:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23845
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:26:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23832
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:27:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23821
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:28:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23813
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:29:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23845
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:30:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23807
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:31:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23809
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:32:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23865
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:33:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23875
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:34:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23912
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:35:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.239
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:36:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23886
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:37:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23876
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:38:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23886
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:39:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23894
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+[2025-05-13 20:40:00] ✅ Обновлено
+  position_size = 0.0
+  avg_price     = 0.0
+  side          = 
+  mark_price    = 0.23892
+  position_open = False
+  order_count   = 0
+  order_prices  = []
+  order_sizes   = []
+
+=== Запуск 3 Запись позиций.py в 2025-05-14 17:52:41 ===
+=== Запуск записи позиций для DOGEUSDT в 2025-05-14 14:52:45 ===
+[2025-05-14 14:52:00] ✅ Обновлено
+  position_size = 858.0
+  avg_price     = 0.2319817
+  side          = Buy
+  mark_price    = 0.23243
+  position_open = True
+  order_count   = 19
+  order_prices  = [0.2329, 0.2271, 0.2274, 0.2276, 0.2278, 0.2281, 0.2283, 0.2285, 0.2288, 0.229, 0.2292, 0.2295, 0.2297, 0.2299, 0.2302, 0.2304, 0.2306, 0.2309, 0.2311]
+  order_sizes   = [858.0, 347.0, 330.0, 314.0, 299.0, 284.0, 271.0, 258.0, 245.0, 233.0, 222.0, 211.0, 201.0, 191.0, 182.0, 173.0, 165.0, 156.0, 149.0]
+[2025-05-14 14:53:00] ✅ Обновлено
+  position_size = 858.0
+  avg_price     = 0.2319817
+  side          = Buy
+  mark_price    = 0.23227
+  position_open = True
+  order_count   = 19
+  order_prices  = [0.2329, 0.2271, 0.2274, 0.2276, 0.2278, 0.2281, 0.2283, 0.2285, 0.2288, 0.229, 0.2292, 0.2295, 0.2297, 0.2299, 0.2302, 0.2304, 0.2306, 0.2309, 0.2311]
+  order_sizes   = [858.0, 347.0, 330.0, 314.0, 299.0, 284.0, 271.0, 258.0, 245.0, 233.0, 222.0, 211.0, 201.0, 191.0, 182.0, 173.0, 165.0, 156.0, 149.0]
+[2025-05-14 14:53:00] ✅ Обновлено
+  position_size = 858.0
+  avg_price     = 0.2319817
+  side          = Buy
+  mark_price    = 0.23212
+  position_open = True
+  order_count   = 19
+  order_prices  = [0.2329, 0.2271, 0.2274, 0.2276, 0.2278, 0.2281, 0.2283, 0.2285, 0.2288, 0.229, 0.2292, 0.2295, 0.2297, 0.2299, 0.2302, 0.2304, 0.2306, 0.2309, 0.2311]
+  order_sizes   = [858.0, 347.0, 330.0, 314.0, 299.0, 284.0, 271.0, 258.0, 245.0, 233.0, 222.0, 211.0, 201.0, 191.0, 182.0, 173.0, 165.0, 156.0, 149.0]

@@ -1,5 +1,24 @@
+# 🐍 Python
 __pycache__/
 *.pyc
-.idea/
+
+# 🧠 IDE
 .vscode/
+.idea/
+
+# 📦 Данные аккаунтов (логи, parquet, но не json!)
+accounts/**/logs/
+accounts/**/data/
+
+# 📁 Общие логи
+logs/*.log
+
+# 📊 Стратегические данные
+strategy_data/**/*.parquet
+
+# 🧪 Файл структуры
+structure.txt
+
+# 🧼 По расширению
 *.log
+*.parquet

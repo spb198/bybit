@@ -21,7 +21,8 @@ os.makedirs(DATA_PATH, exist_ok=True)
 os.makedirs(LOG_PATH, exist_ok=True)
 
 EXECUTIONS_FILE = os.path.join(DATA_PATH, "executions.parquet")
-LOG_FILE = os.path.join(LOG_PATH, "executions.log")
+LOG_FILE = os.path.join(LOG_PATH, "3_Запись_позиций.py.log")
+
 
 # === Загрузка конфигурации ===
 with open(CONFIG_FILE) as f:
