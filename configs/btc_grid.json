@@ -1,0 +1,12 @@
+{
+  "bot_name": "btc_grid",
+  "symbol": "BTCUSDT",
+  "category": "linear",
+  "position_mode": "oneway",
+  "rsi5_window": 14,
+  "rsi30_window": 30,
+  "cci_window": 20,
+  "rsi5_threshold": 45,
+  "rsi30_threshold": 55,
+  "cci_threshold": -100
+}

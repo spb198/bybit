@@ -6,7 +6,7 @@
   "rsi5_window": 14,
   "rsi30_window": 30,
   "cci_window": 20,
-  "rsi5_threshold": 44,
+  "rsi5_threshold": 50,
   "rsi30_threshold": 55,
-  "cci_threshold": 100
+  "cci_threshold": 50
 }
