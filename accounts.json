@@ -5,30 +5,9 @@
     "api_key": "1aHHLARIGuk6K6OJPs",
     "api_secret": "uSwaXLORup2CLHXPP8M2IORlsbznoZyIKvA1",
     "bots": {
-      "xrp_grid": {
-        "capital_percent": 0,
-        "enabled": true,
-        "grid_size": 20,
-        "grid_distance": 0.005,
-        "profit_target": 0.006,
-        "offset": 0.0001,
-        "tp_update_cooldown": 120,
-        "reorder_threshold": 0.002,
-        "size_multiplier": 1.05
-      },
-      "btc_grid": {
-        "capital_percent": 0,
-        "enabled": false,
-        "grid_size": 10,
-        "grid_distance": 0.002,
-        "profit_target": 0.002,
-        "offset": 0.001,
-        "tp_update_cooldown": 120,
-        "reorder_threshold": 0.002,
-        "size_multiplier": 1.05
-      },
+
       "bnb_grid": {
-        "capital_percent": 0.4,
+        "capital_percent": 0.6,
         "enabled": true,
         "grid_size": 10,
         "grid_distance": 0.006,
@@ -36,10 +15,13 @@
         "offset": 0.0005,
         "tp_update_cooldown": 120,
         "reorder_threshold": 0.002,
-        "size_multiplier": 1.05
+        "size_multiplier": 1.05,
+        "martingale_step": 1.1,         
+        "martingale_order": 1.2,      
+        "max_range": 0.10             
       },
       "sol_grid": {
-        "capital_percent": 0.4,
+        "capital_percent": 0.6,
         "enabled": true,
         "grid_size": 15,
         "grid_distance": 0.01,
@@ -50,7 +32,7 @@
         "size_multiplier": 1.05
       },
       "eth_grid": {
-        "capital_percent": 0.4,
+        "capital_percent": 0.6,
         "enabled": true,
         "grid_size": 10,
         "grid_distance": 0.01,
