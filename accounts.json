@@ -10,37 +10,43 @@
         "capital_percent": 0.6,
         "enabled": true,
         "grid_size": 10,
-        "grid_distance": 0.006,
-        "profit_target": 0.002,
+        "grid_distance": 0.001,
+        "profit_target": 0.003,
         "offset": 0.0005,
         "tp_update_cooldown": 120,
         "reorder_threshold": 0.002,
         "size_multiplier": 1.05,
-        "martingale_step": 1.1,         
-        "martingale_order": 1.2,      
-        "max_range": 0.10             
+        "martingale_step": 1.15,         
+        "martingale_order": 1.1,      
+        "max_range": 0.1             
       },
-      "sol_grid": {
+       "sol_grid": {
         "capital_percent": 0.6,
         "enabled": true,
-        "grid_size": 15,
-        "grid_distance": 0.01,
-        "profit_target": 0.006,
-        "offset": 0.001,
-        "tp_update_cooldown": 120,
-        "reorder_threshold": 0.002,
-        "size_multiplier": 1.05
-      },
-      "eth_grid": {
-        "capital_percent": 0.6,
-        "enabled": true,
-        "grid_size": 10,
-        "grid_distance": 0.01,
-        "profit_target": 0.008,
+        "grid_size": 19,
+        "grid_distance": 0.002,
+        "profit_target": 0.005,
         "offset": 0.0001,
         "tp_update_cooldown": 120,
         "reorder_threshold": 0.002,
-        "size_multiplier": 1.05
+        "size_multiplier": 1.05,
+        "martingale_step": 1.1,         
+        "martingale_order": 1.1,      
+        "max_range": 0.1             
+      },
+       "eth_grid": {
+        "capital_percent": 0.6,
+        "enabled": true,
+        "grid_size": 29,
+        "grid_distance": 0.002,
+        "profit_target": 0.008,
+        "offset": 0.0005,
+        "tp_update_cooldown": 120,
+        "reorder_threshold": 0.002,
+        "size_multiplier": 1.05,
+        "martingale_step": 1.15,         
+        "martingale_order": 1.1,      
+        "max_range": 0.08             
       }
     }
   }
