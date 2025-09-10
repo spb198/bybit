@@ -51,6 +51,9 @@ GRID_SIZE = get_param("grid_size", 10)
 GRID_DISTANCE = get_param("grid_distance", 0.006)
 OFFSET = get_param("offset", 0.0001)
 CAPITAL_PERCENT = get_param("capital_percent", 1)
+MARTINGALE_STEP = get_param("martingale_step", 1.1)
+MARTINGALE_ORDER = get_param("martingale_order", 1.2)
+MAX_RANGE = get_param("max_range", 0.10)
 TP_UPDATE_COOLDOWN = get_param("tp_update_cooldown", 120)
 REORDER_THRESHOLD = get_param("reorder_threshold", 0.002)
 SIZE_MULTIPLIER = get_param("size_multiplier", 1.05)
@@ -133,22 +136,39 @@ def cancel_all_tp_orders(session):
 def place_grid_orders(session, mark_price, qty_precision):
     raw_balance = get_wallet_balance_usdt(session)
     capital_usd = raw_balance * CAPITAL_PERCENT
-    r = SIZE_MULTIPLIER
     n = GRID_SIZE
-    size = capital_usd * (r - 1) / (r ** n - 1)
-    print(f"{datetime.utcnow()} 📊 Баланс: {raw_balance:.2f}, используем: {capital_usd:.2f}, BASE_SIZE_USD: {size:.4f}")
+
+    # === Расчёт шагов по цене (мартингейл-шаги) ===
+    first_step = mark_price * GRID_DISTANCE
+    raw_steps = [MARTINGALE_STEP ** i for i in range(n - 1)]
+    remaining_range = mark_price * MAX_RANGE - first_step
+    scale_steps = remaining_range / sum(raw_steps)
+    steps = [first_step] + [s * scale_steps for s in raw_steps]
+
+    # === Цены ордеров ===
+    prices = []
+    base_price = mark_price * (1 - OFFSET)
+    price = base_price
+    for step in steps:
+        price -= step
+        prices.append(round(price, 4))
+
+    # === Размеры ордеров (мартингейл) ===
+    raw_sizes = [MARTINGALE_ORDER ** i for i in range(n)]
+    notionals = [s * p for s, p in zip(raw_sizes, prices)]
+    total_notional = sum(notionals)
+    scale_sizes = capital_usd / total_notional
+    final_sizes = [s * scale_sizes for s in raw_sizes]
 
     position_mode = config.get("position_mode", "oneway").lower()
 
-    for i in range(GRID_SIZE):
-        price = round(mark_price * (1 - OFFSET - i * GRID_DISTANCE), 4)
-        qty = round(size / price, qty_precision)
+    # === Выставляем ордера ===
+    for i, (p, sz) in enumerate(zip(prices, final_sizes), start=1):
+        qty = round(sz / p, qty_precision)
 
-        # ⛔️ Добавляем проверку минимальной суммы
-        if qty * price < 5:
-            print(f"{datetime.utcnow()} ⚠️ Пропущен ордер {i + 1}: {qty} @ {price} — сумма {qty * price:.2f} < 5 USDT")
-            size *= SIZE_MULTIPLIER
-            continue
+        if qty * p < 5:  # проверка min order value
+            print(f"{datetime.utcnow()} ⚠️ Пропущен ордер {i}: {qty} @ {p} — сумма {qty * p:.2f} < 5 USDT")
+            return  # полностью выходим из функции, не ставим сетку
 
         order_kwargs = dict(
             category=CATEGORY,
@@ -156,16 +176,16 @@ def place_grid_orders(session, mark_price, qty_precision):
             side="Buy",
             orderType="Limit",
             qty=qty,
-            price=price,
+            price=p,
             timeInForce="GTC"
         )
-
         if position_mode == "hedge":
             order_kwargs["positionIdx"] = 1
 
         session.place_order(**order_kwargs)
-        print(f"{datetime.utcnow()} ⛓ Ордер {i+1}: {qty} @ {price}")
-        size *= SIZE_MULTIPLIER
+        print(f"{datetime.utcnow()} ⛓ Ордер {i}: {qty} @ {p}")
+
+
 
 
 def update_take_profit(session, avg_price, size, qty_precision):
@@ -272,10 +292,7 @@ def main():
               f"size = {position_size} | side = {side} | orders = {order_count} | "
               f"price = {mark_price} | last_size = {last_position_size}")
 
-        if (ts == last_ts and position_size == last_position_size and avg_price == last_avg_price and order_count == last_order_count):
-            print(f"{datetime.utcnow()} ⏳ ts = {ts} уже обработан, изменений нет — ждём следующую минуту...")
-            wait_until_next_minute()
-            continue
+
 
         if not active and position_size == 0 and order_count > 0:
             print(f"{datetime.utcnow()} 🔁 Первый запуск: нет позиции, но есть ордера — отменяем всё")
